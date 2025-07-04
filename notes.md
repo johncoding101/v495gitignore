@@ -94,6 +94,12 @@ $ git merge --continue
 
 ## Git ignore
 create a file .gitignore, inside the file # comments
+example:
+This is a comment # ignore all files like venv  .env  and .history
+venv/
+.env
+.history/
+
 in Python gitignore templetes:
 https://github.com/github/gitignore/blob/main/Python.gitignore
 files and directories to be ignored
@@ -101,7 +107,7 @@ files and directories to be ignored
 - Global gitignore
 c:/misarchivos/code/.gitignore_global
 #gitignore global
-.history
+.history/
 
 $ git config --global core.excludefile c:/misarchivos/code/.gitignore_global
 
@@ -121,6 +127,7 @@ $ git config --global --list
 
 # GitHub
 control versions in remote
+- Create
 Create in remote git_name, create file README.MD
 In mi PC(work station):
 I have mi project then
